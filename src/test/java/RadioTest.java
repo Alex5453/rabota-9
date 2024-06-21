@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RadioTest {
     private Radio radio;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         radio = new Radio();
     }
